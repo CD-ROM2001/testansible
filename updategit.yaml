@@ -1,5 +1,3 @@
----
-
 - hosts: linux
   tasks:
   - name: install all updates

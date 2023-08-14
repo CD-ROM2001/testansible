@@ -1,6 +1,5 @@
 - hosts: linux
   tasks:
-  - name: install all updates
     apt:
       upgrade: dist
       update_cache: yes

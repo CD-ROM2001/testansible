@@ -2,6 +2,6 @@
 -hosts: all 
   tasks:
     -name: update apt packages
-    apt:
+     apt:
       upgrade: yes
       update_cache: yes

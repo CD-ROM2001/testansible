@@ -1,4 +1,5 @@
-- hosts: linux
+---
+- hosts: all
   tasks:
     apt:
       upgrade: dist
